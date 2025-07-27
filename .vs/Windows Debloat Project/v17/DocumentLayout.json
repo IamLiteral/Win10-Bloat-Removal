@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows debloat project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows debloat project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\modules\\blockmicrosoftips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\modules\\blockmicrosoftips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\wrappers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\wrappers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\modules\\runallprivacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\modules\\runallprivacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\wrappers\\debloatbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\wrappers\\debloatbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\modules\\removeonedrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\modules\\removeonedrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\modules\\disablewindowsupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\modules\\disablewindowsupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\modules\\removexboxbloat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\modules\\removexboxbloat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|c:\\users\\litty\\documents\\github\\winbloatremoval\\windows10\\modules\\removetelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABD5C78B-2CC4-401C-96E6-888EE2EC6C03}|Windows Debloat Project.csproj|solutionrelative:windows10\\modules\\removetelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAEwDcAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:02:35.8Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "Main.Designer.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Main.Designer.cs",
+              "RelativeToolTip": "Main.Designer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAawD4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T04:59:05.722Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-07-27T06:26:55.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Wrappers\\Logger.cs",
+              "RelativeDocumentMoniker": "Windows10\\Wrappers\\Logger.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Wrappers\\Logger.cs",
+              "RelativeToolTip": "Windows10\\Wrappers\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:07:56.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RunAllPrivacy.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RunAllPrivacy.cs",
+              "RelativeDocumentMoniker": "Windows10\\Modules\\RunAllPrivacy.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RunAllPrivacy.cs",
+              "RelativeToolTip": "Windows10\\Modules\\RunAllPrivacy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:55:33.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:53:30.808Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DebloatButton.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Wrappers\\DebloatButton.cs",
+              "RelativeDocumentMoniker": "Windows10\\Wrappers\\DebloatButton.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Wrappers\\DebloatButton.cs",
+              "RelativeToolTip": "Windows10\\Wrappers\\DebloatButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:50:36.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RemoveOneDrive.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RemoveOneDrive.cs",
+              "RelativeDocumentMoniker": "Windows10\\Modules\\RemoveOneDrive.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RemoveOneDrive.cs",
+              "RelativeToolTip": "Windows10\\Modules\\RemoveOneDrive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:07:42.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DisableWindowsUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\DisableWindowsUpdate.cs",
+              "RelativeDocumentMoniker": "Windows10\\Modules\\DisableWindowsUpdate.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\DisableWindowsUpdate.cs",
+              "RelativeToolTip": "Windows10\\Modules\\DisableWindowsUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:23:47.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RemoveXboxBloat.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RemoveXboxBloat.cs",
+              "RelativeDocumentMoniker": "Windows10\\Modules\\RemoveXboxBloat.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RemoveXboxBloat.cs",
+              "RelativeToolTip": "Windows10\\Modules\\RemoveXboxBloat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:23:38.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Windows Debloat Project",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows Debloat Project.csproj",
+              "RelativeDocumentMoniker": "Windows Debloat Project.csproj",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows Debloat Project.csproj",
+              "RelativeToolTip": "Windows Debloat Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-27T04:55:40.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlockMicrosoftIPs.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\BlockMicrosoftIPs.cs",
+              "RelativeDocumentMoniker": "Windows10\\Modules\\BlockMicrosoftIPs.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\BlockMicrosoftIPs.cs",
+              "RelativeToolTip": "Windows10\\Modules\\BlockMicrosoftIPs.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwC4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:23:45.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RemoveTelemetry.cs",
+              "DocumentMoniker": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RemoveTelemetry.cs",
+              "RelativeDocumentMoniker": "Windows10\\Modules\\RemoveTelemetry.cs",
+              "ToolTip": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows10\\Modules\\RemoveTelemetry.cs",
+              "RelativeToolTip": "Windows10\\Modules\\RemoveTelemetry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:25:59.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
