@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Litty\\source\\repos\\Windows Debloat Project\\Windows Debloat Project\\Windows Debloat Project.csproj",
+      "projectUniqueName": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows Debloat Project.csproj",
       "projectName": "Windows Debloat Project",
-      "projectPath": "C:\\Users\\Litty\\source\\repos\\Windows Debloat Project\\Windows Debloat Project\\Windows Debloat Project.csproj",
+      "projectPath": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\Windows Debloat Project.csproj",
       "packagesPath": "C:\\Users\\Litty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Litty\\source\\repos\\Windows Debloat Project\\Windows Debloat Project\\obj\\",
+      "outputPath": "C:\\Users\\Litty\\Documents\\GitHub\\WinBloatRemoval\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Litty\\AppData\\Roaming\\NuGet\\NuGet.Config",

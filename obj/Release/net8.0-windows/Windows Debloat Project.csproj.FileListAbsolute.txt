@@ -1,0 +1,22 @@
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\Windows Debloat Project.exe
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\Windows Debloat Project.deps.json
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\Windows Debloat Project.runtimeconfig.json
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\Windows Debloat Project.dll
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\Windows Debloat Project.pdb
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\System.Management.dll
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\System.Configuration.Install.dll
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\bin\Release\net8.0-windows\Microsoft.JScript.dll
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.csproj.AssemblyReference.cache
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows_Debloat_Project.Main.resources
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.csproj.GenerateResource.cache
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.AssemblyInfoInputs.cache
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.AssemblyInfo.cs
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.csproj.CoreCompileInputs.cache
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.sourcelink.json
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows .F73114B6.Up2Date
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.dll
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\refint\Windows Debloat Project.dll
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.pdb
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\Windows Debloat Project.genruntimeconfig.cache
+C:\Users\Litty\Documents\GitHub\WinBloatRemoval\obj\Release\net8.0-windows\ref\Windows Debloat Project.dll
