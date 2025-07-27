@@ -1,6 +1,6 @@
-﻿# 🚀 WinBloatRemoval — Windows 10 Debloater & Privacy Enhancer
+﻿# 🚀 Win 10 Bloat Removal — By Literal
 
-**WinBloatRemoval** is a professional-grade tool designed to **debloat**, **despy**, and **de-Microsoft** your Windows 10 system with a single click. It provides a GUI-based, modular interface to remove telemetry, disable unnecessary features, and regain control of your PC — all while logging every action.
+**Win 10 Bloat Removal** is a professional-grade tool designed to **debloat**, **despy**, and **de-Microsoft** your Windows 10 system with a single click. It provides a GUI-based, modular interface to remove telemetry, disable unnecessary features, and regain control of your PC — all while logging every action.
 
 ---
 
