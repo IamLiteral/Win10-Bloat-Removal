@@ -1,6 +1,7 @@
 ﻿# 🚀 Win 10 Bloat Removal — By Literal
 
 **Win 10 Bloat Removal** is a professional-grade tool designed to **debloat**, **despy**, and **de-Microsoft** your Windows 10 system with a single click. It provides a GUI-based, modular interface to remove telemetry, disable unnecessary features, and regain control of your PC — all while logging every action.
+<img width="846" height="497" alt="image" src="https://github.com/user-attachments/assets/5d4c46ae-52d0-4f3f-8e3d-92a0f6672144" />
 
 ---
 
@@ -23,7 +24,7 @@
   - Stops and disables the `wuauserv` service and enforces update-blocking registry entries.
 
 ---
-
+ 
 ### 🗑️ Bloatware Removal
 - **Remove OneDrive**
   - Terminates OneDrive and forcibly deletes its setup files.
