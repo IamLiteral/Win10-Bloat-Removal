@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Windows Debloat Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+488cfc525987b67f08a30fd9b235def417bbc8f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dee9562c295c4a84f1bc4761a5e81159aea175e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Windows Debloat Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Windows Debloat Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
