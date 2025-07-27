@@ -72,4 +72,4 @@ Every executed command is **logged** into the embedded GUI console for transpare
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YourUsername/WinBloatRemoval.git
+   git clone https://github.com/IamLiteral/Win10-Bloat-Removal.git
