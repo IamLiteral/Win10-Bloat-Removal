@@ -1,21 +1,19 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
-namespace Windows_Debloat_Project.Windows10.Wrappers
+namespace Windows_Debloat_Project
 {
     public static class Logger
     {
-        public static TextBox LogBox { get; set; }
+        public static TextBox LogBox;
 
         public static void Log(string message)
         {
-            if (LogBox == null) return;
-
-            string timestamp = DateTime.Now.ToString("HH:mm:ss");
-            LogBox.Invoke((MethodInvoker)(() =>
+            if (LogBox != null)
             {
-                LogBox.AppendText($"[{timestamp}] {message}{Environment.NewLine}");
-            }));
+                LogBox.AppendText(message);
+                LogBox.SelectionStart = LogBox.Text.Length;
+                LogBox.ScrollToCaret();
+            }
         }
     }
 }

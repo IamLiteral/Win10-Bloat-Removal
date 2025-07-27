@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
+using Windows_Debloat_Project.Windows10.Wrappers;
 
 namespace Windows_Debloat_Project.Windows10.Modules
 {
@@ -6,6 +8,8 @@ namespace Windows_Debloat_Project.Windows10.Modules
     {
         public static void Execute()
         {
+            Logger.Log("🧱 Blocking Microsoft Telemetry IPs and Domains...\r\n");
+
             string[] telemetryDomains = {
                 "vortex.data.microsoft.com",
                 "telemetry.microsoft.com",
@@ -13,17 +17,47 @@ namespace Windows_Debloat_Project.Windows10.Modules
                 "settings-win.data.microsoft.com"
             };
 
-            var hosts = "C:\\Windows\\System32\\drivers\\etc\\hosts";
-            foreach (var domain in telemetryDomains)
+            string hosts = "C:\\Windows\\System32\\drivers\\etc\\hosts";
+
+            try
             {
-                File.AppendAllText(hosts, $"0.0.0.0 {domain}\n");
+                foreach (var domain in telemetryDomains)
+                {
+                    string entry = $"0.0.0.0 {domain}";
+                    if (!File.ReadAllText(hosts).Contains(entry))
+                    {
+                        File.AppendAllText(hosts, entry + Environment.NewLine);
+                        Logger.Log($"✅ Added to hosts: {entry}\r\n");
+                    }
+                    else
+                    {
+                        Logger.Log($"⚠️ Already exists in hosts: {entry}\r\n");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"❌ Error modifying hosts file: {ex.Message}\r\n");
             }
 
             string script = @"
 New-NetFirewallRule -DisplayName 'Block Microsoft Telemetry' -Direction Outbound -RemoteAddress 13.107.4.50,13.107.5.88 -Action Block
 ";
-            var result = Windows_Debloat_Project.Windows10.Wrappers.ExecutionHelper.RunPowerShell(script);
-            Console.WriteLine("Telemetry IPs/domains blocked:\n" + result);
+
+            Logger.Log("🚀 Executing PowerShell firewall block...\r\n");
+
+            try
+            {
+                var result = Windows_Debloat_Project.Windows10.Wrappers.ExecutionHelper.RunPowerShell(script);
+                Logger.Log("📜 PowerShell Output:\r\n" + result + "\r\n");
+                Logger.Log("✅ Firewall rule applied successfully.\r\n");
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"❌ PowerShell execution failed: {ex.Message}\r\n");
+            }
+
+            Logger.Log("🏁 Done blocking Microsoft telemetry.\r\n\r\n");
         }
     }
 }
