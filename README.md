@@ -1,4 +1,4 @@
-﻿# 🚀 Win 10 Bloat Removal — By Literal
+﻿# Win 10 Bloat Removal — By Literal
 
 **Win 10 Bloat Removal** is a tool designed to **debloat**, **despy**, and **de-Microsoft** your Windows 10 system with a single click. It provides a GUI-based, modular interface to remove telemetry, disable unnecessary features, and regain control of your PC — all while logging every action.
 
@@ -6,7 +6,7 @@
 <img width="846" height="497" alt="image" src="https://github.com/user-attachments/assets/5d4c46ae-52d0-4f3f-8e3d-92a0f6672144" />
 ## 🧠 Features
 
-### ✅ Privacy Fixes
+### Privacy Fixes
 - **Remove Telemetry Services**
   - Disables `DiagTrack`, stops related services, and disables telemetry collection.
 - **Disable Cortana**
@@ -24,7 +24,7 @@
 
 ---
  
-### 🗑️ Bloatware Removal
+###  Bloatware Removal
 - **Remove OneDrive**
   - Terminates OneDrive and forcibly deletes its setup files.
 - **Remove Suggested Apps**
@@ -34,7 +34,7 @@
 
 ---
 
-### 🛠️ GUI Features
+###  GUI Features
 - Modern Windows Forms UI with grouped buttons by category (Privacy, Services, Bloatware)
 - Built-in **Logger Console** for real-time execution output
 - **🔥 "Run All Privacy Fixes"** one-click batch action
@@ -46,7 +46,7 @@
 
 ---
 
-## 🛡️ How It Works
+## How It Works
 
 Each module is a C# class that runs a specific PowerShell script or system command. These include:
 
@@ -60,7 +60,7 @@ Every executed command is **logged** into the embedded GUI console for transpare
 
 ---
 
-## 🧪 Requirements
+##  Requirements
 
 - Windows 10 (21H2 or newer recommended)
 - Admin rights (automatically checked)
@@ -68,7 +68,7 @@ Every executed command is **logged** into the embedded GUI console for transpare
 
 ---
 
-## ⚙️ Build Instructions
+##  Build Instructions
 
 1. Clone the repo:
    ```bash
