@@ -10,6 +10,11 @@ namespace Windows_Debloat_Project
         {
             if (LogBox != null)
             {
+                if (LogBox.Text == "Activity log will appear here.")
+                {
+                    LogBox.Clear();
+                }
+
                 LogBox.AppendText(message);
                 LogBox.SelectionStart = LogBox.Text.Length;
                 LogBox.ScrollToCaret();
