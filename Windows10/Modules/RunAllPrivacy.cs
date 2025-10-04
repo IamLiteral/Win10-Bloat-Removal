@@ -32,8 +32,26 @@ namespace Windows_Debloat_Project.Windows10.Modules
                 Logger.Log("➡️ Executing: Remove Xbox Bloatware");
                 RemoveXboxBloat.Execute();
 
-                Logger.Log("➡️ Executing: Disable Windows Updates");
-                DisableWindowsUpdate.Execute();
+                Logger.Log("➡️ Executing: Configure Windows Update to notify");
+                ConfigureWindowsUpdate.Execute();
+
+                Logger.Log("➡️ Executing: Disable Activity History");
+                DisableActivityHistory.Execute();
+
+                Logger.Log("➡️ Executing: Disable Location Tracking");
+                DisableLocationTracking.Execute();
+
+                Logger.Log("➡️ Executing: Disable Background Apps");
+                DisableBackgroundApps.Execute();
+
+                Logger.Log("➡️ Executing: Disable Tailored Experiences");
+                DisableTailoredExperiences.Execute();
+
+                Logger.Log("➡️ Executing: Disable Typing Personalization");
+                DisableTypingPersonalization.Execute();
+
+                Logger.Log("➡️ Executing: Harden Start Menu Search");
+                HardenSearchExperience.Execute();
 
                 Logger.Log("➡️ Executing: Remove Suggested Apps");
                 RemoveSuggestedApps.Execute();

@@ -21,17 +21,19 @@ namespace Windows_Debloat_Project.Windows10.Modules
 
             try
             {
+                string hostsContent = File.ReadAllText(hosts);
+
                 foreach (var domain in telemetryDomains)
                 {
                     string entry = $"0.0.0.0 {domain}";
-                    if (!File.ReadAllText(hosts).Contains(entry))
+                    if (!hostsContent.Contains(entry))
                     {
                         File.AppendAllText(hosts, entry + Environment.NewLine);
                         Logger.Log($"✅ Added to hosts: {entry}\r\n");
                     }
                     else
                     {
-                        Logger.Log($"⚠️ Already exists in hosts: {entry}\r\n");
+                        Logger.Log($"ℹ️ Hosts entry already present: {entry}\r\n");
                     }
                 }
             }
@@ -41,7 +43,14 @@ namespace Windows_Debloat_Project.Windows10.Modules
             }
 
             string script = @"
-New-NetFirewallRule -DisplayName 'Block Microsoft Telemetry' -Direction Outbound -RemoteAddress 13.107.4.50,13.107.5.88 -Action Block
+$addresses = '13.107.4.50','13.107.5.88'
+$rule = Get-NetFirewallRule -DisplayName 'Block Microsoft Telemetry' -ErrorAction SilentlyContinue
+if ($null -eq $rule) {
+    New-NetFirewallRule -DisplayName 'Block Microsoft Telemetry' -Direction Outbound -RemoteAddress $addresses -Action Block -Profile Any -Description 'Blocks common Windows telemetry endpoints.'
+} else {
+    Set-NetFirewallRule -DisplayName 'Block Microsoft Telemetry' -Enabled True -Action Block
+    Set-NetFirewallRule -DisplayName 'Block Microsoft Telemetry' -RemoteAddress $addresses
+}
 ";
 
             Logger.Log("🚀 Executing PowerShell firewall block...\r\n");
