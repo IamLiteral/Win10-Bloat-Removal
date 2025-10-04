@@ -11,17 +11,13 @@ namespace Windows_Debloat_Project
 {
     public partial class Main : Form
     {
-        private readonly int leftX = 260;
-        private readonly int rightX = 540;
-        private readonly int startY = 80;
-        private readonly int spacing = 40;
-
         private Button btnRunAllPrivacy;
         private TextBox txtLogger;
 
         public Main()
         {
             InitializeComponent();
+            DoubleBuffered = true;
             SetupAllButtons();
             SetupLogger();
             Logger.LogBox = txtLogger;
@@ -30,43 +26,72 @@ namespace Windows_Debloat_Project
 
         private void SetupLogger()
         {
-            txtLogger = new TextBox();
-            txtLogger.Multiline = true;
-            txtLogger.ScrollBars = ScrollBars.Vertical;
-            txtLogger.BackColor = Color.Black;
-            txtLogger.ForeColor = Color.Lime;
-            txtLogger.Font = new Font("Consolas", 9F);
-            txtLogger.Location = new Point(20, 360);
-            txtLogger.Size = new Size(800, 120);
-            txtLogger.ReadOnly = true;
-            Controls.Add(txtLogger);
+            txtLogger = new TextBox
+            {
+                Multiline = true,
+                ScrollBars = ScrollBars.Vertical,
+                BackColor = Color.FromArgb(18, 20, 28),
+                ForeColor = Color.FromArgb(210, 218, 235),
+                Font = new Font("Consolas", 9F),
+                ReadOnly = true,
+                BorderStyle = BorderStyle.None,
+                Dock = DockStyle.Fill,
+                Margin = new Padding(0, 12, 0, 0),
+                Text = "Activity log will appear here."
+            };
+
+            panelLogger.Controls.Add(txtLogger);
+            panelLogger.Controls.SetChildIndex(lblLoggerTitle, 0);
+            lblLoggerTitle.BringToFront();
         }
 
         private void SetupAllButtons()
         {
-            // Left Column
-            Controls.Add(new DebloatButton("Remove OneDrive", leftX, startY + spacing * 0, btnRemoveOneDrive_Click));
-            Controls.Add(new DebloatButton("Remove Telemetry", leftX, startY + spacing * 1, btnRemoveTelemetry_Click));
-            Controls.Add(new DebloatButton("Disable Defender Cloud", leftX, startY + spacing * 2, btnDisableDefenderCloud_Click));
-            Controls.Add(new DebloatButton("Disable Cortana", leftX, startY + spacing * 3, btnDisableCortana_Click));
-            Controls.Add(new DebloatButton("Disable Windows Update", leftX, startY + spacing * 4, btnDisableUpdates_Click));
+            flowButtons.SuspendLayout();
 
-            // Right Column
-            Controls.Add(new DebloatButton("Disable Advertising ID", rightX, startY + spacing * 0, btnDisableAdID_Click));
-            Controls.Add(new DebloatButton("Block Microsoft IPs", rightX, startY + spacing * 1, btnBlockMicrosoftIPs_Click));
-            Controls.Add(new DebloatButton("Disable Feedback", rightX, startY + spacing * 2, btnDisableFeedback_Click));
-            Controls.Add(new DebloatButton("Remove Xbox Apps", rightX, startY + spacing * 3, btnRemoveXbox_Click));
-            Controls.Add(new DebloatButton("Remove Suggested Apps", rightX, startY + spacing * 4, btnRemoveSuggestions_Click));
+            AddActionButton("Remove OneDrive", btnRemoveOneDrive_Click);
+            AddActionButton("Remove Telemetry", btnRemoveTelemetry_Click);
+            AddActionButton("Disable Defender Cloud", btnDisableDefenderCloud_Click);
+            AddActionButton("Disable Cortana", btnDisableCortana_Click);
+            AddActionButton("Disable Windows Update", btnDisableUpdates_Click);
+            AddActionButton("Disable Advertising ID", btnDisableAdID_Click);
+            AddActionButton("Block Microsoft IPs", btnBlockMicrosoftIPs_Click);
+            AddActionButton("Disable Feedback", btnDisableFeedback_Click);
+            AddActionButton("Remove Xbox Apps", btnRemoveXbox_Click);
+            AddActionButton("Remove Suggested Apps", btnRemoveSuggestions_Click);
 
-            // Run All Button
-            btnRunAllPrivacy = new DebloatButton("🔥 Run All Privacy Fixes", leftX, startY + spacing * 6, btnRunAllPrivacy_Click)
+            flowButtons.ResumeLayout();
+
+            btnRunAllPrivacy = new Button
             {
-                Width = 540,
-                Height = 40,
-                BackColor = Color.DarkRed,
-                Font = new Font("Segoe UI", 10F, FontStyle.Bold)
+                Text = "Run All Privacy Fixes",
+                Dock = DockStyle.Fill,
+                Height = 48,
+                FlatStyle = FlatStyle.Flat,
+                Font = new Font("Segoe UI", 10F, FontStyle.Bold),
+                BackColor = Color.FromArgb(220, 76, 70),
+                ForeColor = Color.White,
+                Cursor = Cursors.Hand,
+                Margin = new Padding(0)
             };
-            Controls.Add(btnRunAllPrivacy);
+
+            btnRunAllPrivacy.FlatAppearance.BorderSize = 0;
+            btnRunAllPrivacy.FlatAppearance.MouseOverBackColor = Color.FromArgb(232, 99, 92);
+            btnRunAllPrivacy.FlatAppearance.MouseDownBackColor = Color.FromArgb(210, 70, 64);
+            btnRunAllPrivacy.Click += btnRunAllPrivacy_Click;
+
+            panelRunAll.Controls.Add(btnRunAllPrivacy);
+        }
+
+        private void AddActionButton(string text, EventHandler handler)
+        {
+            var button = new DebloatButton(text, handler)
+            {
+                Anchor = AnchorStyles.Top | AnchorStyles.Left,
+                MaximumSize = new Size(220, 44),
+            };
+
+            flowButtons.Controls.Add(button);
         }
 
         private void Confirm(Action action, string message)
